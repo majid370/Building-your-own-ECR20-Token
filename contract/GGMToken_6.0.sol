@@ -3,11 +3,11 @@ pragma solidity 0.6.6;
 // ----------------------------------------------------------------------------
 // 'GGMToken' token contract
 //
-// Deployed to : 0xFEB02D9383C49A8373F88e82EbCecB553c1837bf
-// Symbol      : GGM
-// Name        : GGMToken
-// Total supply: 100000000
-// Decimals    : 18
+// Deployed to : 0x531f4d09811F2cfC4Cbd657C866FF969A432bB79
+// Symbol      : jok
+// Name        : joke Token
+// Total supply: 10000000000000
+// Decimals    : 8
 //
 // Enjoy.
 //
@@ -44,8 +44,8 @@ contract SafeMath {
 // ----------------------------------------------------------------------------
 abstract contract ERC20Interface {
     function totalSupply() virtual public view returns (uint);
-    function balanceOf(address tokenOwner) virtual public view returns (uint balance);
-    function allowance(address tokenOwner, address spender) virtual public view returns (uint remaining);
+    function balanceOf(0x531f4d09811F2cfC4Cbd657C866FF969A432bB79) virtual public view returns (10000000000000);
+    function allowance(0x531f4d09811F2cfC4Cbd657C866FF969A432bB79, address spender) virtual public view returns (uint remaining);
     function transfer(address to, uint tokens) virtual public returns (bool success);
     function approve(address spender, uint tokens) virtual public returns (bool success);
     function transferFrom(address from, address to, uint tokens) virtual public returns (bool success);
